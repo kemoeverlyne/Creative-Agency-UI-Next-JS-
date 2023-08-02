@@ -53,28 +53,28 @@ export const testimonial = [
     name: "Alexander Black",
     cover: "../images/e1.jpg",
     post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    desc: "Velltech surpassed our expectations with their innovative approach and attention to detail. Their team was dedicated and responsive throughout the project, and the final result was simply outstanding",
   },
   {
     id: 2,
     name: "Diana Green",
     cover: "../images/e2.jpg",
     post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    desc: "We are thrilled with the results of our website revamp by Velltech. Their design and development skills are second to none, and they have truly elevated our brand's online presence."
   },
   {
     id: 3,
     name: "Alexander Black",
     cover: "../images/e3.jpg",
     post: "Seven consulting - CEO",
-    desc: "Nunc fermentum - tempus erat ligula, sit amet lacinia justo cursus ac. Suspendisse quis nulla tincidunt! Lorem ipsum dolor amet at ornare ex, quis fringilla tortor! Nunc consectetur feugiat rutrum. Sed rhoncus sapien!",
+    desc: "Working with Velltech was a game-changer for our digital marketing. Their strategies have significantly boosted our online visibility, and we've seen a substantial increase in leads and conversions",
   },
   {
     id: 4,
     name: "Diana Green",
     cover: "../images/e4.jpg",
     post: "Seven Arts - marketing manager",
-    desc: "Cras at ornare fermentum quam et tortor euismod, vel maximus metus tristique at ornare ex, quis fringilla tortor. Aenean semper neque quis consectetur lobortis. Quisque nec convallis ex. Aenean ut metus et nunc cursus aliquet.",
+    desc: "From the initial consultation to the final delivery, Velltech's professionalism and expertise were evident. They understood our goals and delivered a top-notch e-commerce platform that has transformed our business."
   },
 ]
 export const showcase = [

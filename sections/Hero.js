@@ -6,11 +6,39 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
+import video from "@/assets/video1.mp4";
 
 const Hero = () => {
   return (
     <>
-      <section className='hero'>
+    <section className='hero'>
+  <div className='container'>
+    {/* Add the video element here */}
+    <video className="video-element" autoPlay loop muted>
+      <source src={video} type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <TitleLogo caption='Group' className='logobg' />
+    <h2 className='hero-title'>Unlocking Creativity, Delivering Excellence</h2>
+
+    <div className='sub-heading'>
+      <TitleSm title='WEB' /> <span>.</span>
+      <TitleSm title='MOBILE' /> <span>.</span>
+      <TitleSm title='BRANDING' /> <span>.</span>
+      <TitleSm title='DIGITAL MARKETING' />
+    </div>
+  </div>
+  <br>
+  </br>
+  <br>
+  </br>
+  <br></br>
+  <br></br>
+  <br></br>
+
+  </section>
+
+      {/* <section className='hero'>
         <div className='container'>
           <TitleLogo title='creative' caption='7' className='logobg' />
           <h1 className='hero-title'>WE BUILD DIGITAL EXPERIENCES</h1>
@@ -38,7 +66,7 @@ const Hero = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
       <Expertise />
       <Banner />
       <Testimonial />

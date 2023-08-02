@@ -1,29 +1,30 @@
 /*  Hero Section */
 .hero {
-  text-align: center;
-  padding: $xl-6 0;
-  padding-top: $xll-3;
-  height: 90vh !important;
-  overflow: hidden !important;
-  position: relative;
-  &::before {
-    content: "";
+  .hero {
+    text-align: center;
+    padding: $xl-6 0;
+    padding-top: $xll-3;
+    height: 90vh !important;
+    overflow: hidden !important;
+    position: relative;
+  }
+  
+  .video-element {
     position: absolute;
     top: 0;
-    left: -40%;
-    width: 180%;
-    height: 200vh;
-    background-image: url("../assets/images/art-top-cropp.jpg");
-    background-size: cover;
-    background-position: center;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     z-index: -1;
-    overflow-x: hidden !important;
   }
+  
   .hero-title {
-    font-size: $xll-3;
+    font-size: $xll-2;
     line-height: 115px;
     font-weight: 600;
     margin: $xl-6 0;
+    text-align: center;
   }
   .sub-heading {
     display: flex;

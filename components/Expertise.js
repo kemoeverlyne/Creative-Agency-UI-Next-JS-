@@ -10,7 +10,8 @@ const Expertise = () => {
         <div className='container'>
           <div className='heading-title'>
             <Title title='Our expertise' />
-            <p>Vivamus a ligula ut velit placerat egestas at id leo. Nulla ac volutpat nunc. Suspendisse ut magna porttitor, sollicitudin ligula at, molestie dolor.</p>
+            <p>We excel in creating remarkable digital experiences that captivate and engage your audience. From stunning web design and development to result-driven digital marketing strategies, we have the expertise to elevate your online presence. Whether it's crafting an eye-catching brand identity or building a seamless e-commerce platform, our talented team ensures that every detail is meticulously designed to leave a lasting impression on your customers. Let's collaborate and take your business to the next level together!
+</p>
           </div>
           <div className='hero-content grid-4'>
             {expertise.map((item) => (
