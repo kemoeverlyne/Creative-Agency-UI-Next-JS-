@@ -13,6 +13,10 @@ const SinglePost = () => {
   const post = blogdata.find((post) => post.id === parseInt(id));
   console.log("post:", post);
 
+  if (!post) {
+    return <div>Loading...</div>; // or show an error message
+  }
+
   return (
     <>
       <Head>
