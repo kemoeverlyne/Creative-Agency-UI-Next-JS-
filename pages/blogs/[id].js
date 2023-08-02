@@ -6,9 +6,12 @@ import { useRouter } from "next/router"
 import React from "react"
 
 const SinglePost = () => {
-  const router = useRouter()
-  const { id } = router.query
-  const post = blogdata.find((post) => post.id === parseInt(id))
+  const router = useRouter();
+  const { id } = router.query;
+  console.log("id:", id);
+  
+  const post = blogdata.find((post) => post.id === parseInt(id));
+  console.log("post:", post);
 
   return (
     <>
