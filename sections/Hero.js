@@ -6,7 +6,7 @@ import Testimonial from "@/components/Testimonial"
 import { Title, TitleLogo, TitleSm } from "@/components/common/Title"
 import { BlogCard, Brand } from "@/components/router"
 import React from "react"
-import video from "@/assets/video1.mp4";
+import video from "@/assets/video3.mp4";
 
 const Hero = () => {
   return (
